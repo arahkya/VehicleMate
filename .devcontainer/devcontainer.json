@@ -1,0 +1,13 @@
+{
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "dev-env",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
